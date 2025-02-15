@@ -76,7 +76,7 @@ Contributions are welcome! Feel free to **fork** this repo and submit a **pull r
 ## 📬 Contact
 For queries, reach out via **GitHub Issues** or email at `zenxpro@proton.me'
 
-##🌐 API Source
+## 🌐 API Source
  OpenRouter: Used for integrating advanced AI-driven career guidance.
 
 ## 📜 Integrated APIs
