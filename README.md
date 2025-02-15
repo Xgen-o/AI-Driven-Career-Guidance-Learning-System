@@ -68,7 +68,7 @@ https://youtu.be/jOaFcsE-Lv8
 - Add more APIs for broader recommendations
 
 ## 📜 License
-This project is **open-source** and available under the **MIT License**.
+This project is **open-source**
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to **fork** this repo and submit a **pull request**.
