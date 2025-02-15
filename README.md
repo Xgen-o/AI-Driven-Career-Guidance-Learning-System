@@ -69,5 +69,4 @@ This project is **open-source** and available under the **MIT License**.
 Contributions are welcome! Feel free to **fork** this repo and submit a **pull request**.
 
 ## 📬 Contact
-For queries, reach out via **GitHub Issues** or email at `your-email@example.com`.
-
+For queries, reach out via **GitHub Issues** or email at `zenxpro@proton.me'
