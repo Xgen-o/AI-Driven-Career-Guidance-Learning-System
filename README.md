@@ -52,9 +52,11 @@ npx nodemon server.js
 ✅ Recommends learning resources dynamically  
 ✅ Fetches relevant YouTube videos for skill enhancement  
 ✅ Modern UI/UX with responsive design  
+✅ User's can save it as pdf
 
 ## 📸 Screenshots
-(Include images of the UI here)
+![image](https://github.com/user-attachments/assets/2ced86c0-4bad-4d1d-8e4e-3529018e04e5)
+
 
 ## 💡 Future Enhancements
 - Integrate AI-based resume analysis
