@@ -57,7 +57,7 @@ npx nodemon server.js
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/2ced86c0-4bad-4d1d-8e4e-3529018e04e5)
 
-🎥 Working Video
+## 🎥 Working Video
 
 Check out the working demonstration of the project:
 https://youtu.be/jOaFcsE-Lv8
@@ -85,3 +85,5 @@ This project is open-source and available under the MIT License.
 YouTube API: Fetches relevant videos based on user learning preferences.
 
 Online LLM API: Provides AI-driven career guidance and recommendations.
+
+
