@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Driven Career Guidance & Learning System</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#007bff">
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Career Guidance</li>
+            </ol>
+        </nav>
+
+        <header class="text-center mb-4">
+            <h1 class="display-6">AI-Driven Career Guidance & Learning System</h1>
+            <p class="lead text-muted">Fill in your information to get career predictions and course recommendations!</p>
+        </header>
+
+        <main>
+            <form id="user-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" class="form-control shadow-sm" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="education">Education Level:</label>
+                    <select id="education" class="form-control shadow-sm" required>
+                        <option value="">Select your education level</option>
+                        <option value="High School">High School</option>
+                        <option value="Bachelor's Degree">Bachelor's Degree</option>
+                        <option value="Master's Degree">Master's Degree</option>
+                        <option value="PhD">PhD</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="skills">Skills (comma separated):</label>
+                    <input type="text" id="skills" class="form-control shadow-sm" placeholder="e.g., Python, Communication, Design" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="interests">Interests (comma separated):</label>
+                    <input type="text" id="interests" class="form-control shadow-sm" placeholder="e.g., Technology, Art, Marketing" required>
+                </div>
+
+                <button type="button" id="predictAndGetCoursesBtn" class="btn btn-primary btn-block btn-lg shadow">Predict Career & Get Courses</button>
+
+                <div class="form-group mt-3">
+                    <label for="filterPreferences">Filter Predictions By:</label>
+                    <select id="filterPreferences" class="form-control shadow-sm">
+                        <option value="all">All</option>
+                        <option value="tech">Technology</option>
+                        <option value="art">Art</option>
+                        <option value="marketing">Marketing</option>
+                    </select>
+                </div>
+
+                <button type="button" id="sortButton" class="btn btn-secondary ml-2 shadow">Sort Predictions</button>
+                <button type="button" id="filterButton" class="btn btn-secondary ml-2 shadow">Filter Predictions</button>
+            </form>
+
+            <section id="result" class="mt-5">
+                <h2>Career Prediction:</h2>
+                <ul id="predictionList" class="list-group"></ul>
+
+                <h3 class="mt-4">Recommended YouTube Videos:</h3>
+                <ul id="videoList" class="list-group"></ul>
+
+                <h3 class="mt-4">Recommended Courses:</h3>
+                <ul id="courseList" class="list-group"></ul>
+
+                <button id="print-btn" class="btn btn-outline-primary mt-3 btn-block">Print Prediction</button>
+            </section>
+        </main>
+    </div>
+
+    <!-- JS file to handle interactions -->
+    <script src="script.js" defer></script>
+    <script src="serviceWorker.js" defer></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Lazy Loading Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+</body>
+</html>

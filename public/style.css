@@ -1,0 +1,132 @@
+:root {
+    --primary-color: #05770bb7; /* Vibrant blue */
+    --secondary-color: #4CAF50; /* Soft green */
+    --background-color:#F1F1F2; /* Light neutral gray */
+    --text-color: #063038; /* Dark gray text */
+    --accent-color: #FFC107; /* Bright yellow for highlights */
+    --hover-color: #0056b3; /* Darker blue for hover effects */
+    
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #aad0d8;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    padding: 25px;
+    max-width: 1200px;
+    width: 95%;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    text-shadow: var(--text-shadow);
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #4b5055;
+    text-shadow: var(--text-shadow);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: var(--primary-color);
+    text-shadow: var(--text-shadow);
+}
+
+input, select, button {
+    font-size: 1rem;
+    padding: 12px;
+    border: 1px solid #a1a6aa;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: var(--box-shadow);
+}
+
+input:focus, select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: #d8c9c9;
+    border: none;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+}
+
+button:hover {
+    background-color: var(--hover-color);
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #e3e6ea;
+    border-radius: 6px;
+    box-shadow: var(--box-shadow);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+    transform: translateY(-2px);
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: var(--primary-color);
+    text-shadow: var(--text-shadow);
+}
+
+.list-group-item a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    input, select, button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
