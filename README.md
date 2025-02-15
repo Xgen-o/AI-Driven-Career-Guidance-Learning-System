@@ -75,3 +75,13 @@ Contributions are welcome! Feel free to **fork** this repo and submit a **pull r
 
 ## 📬 Contact
 For queries, reach out via **GitHub Issues** or email at `zenxpro@proton.me'
+🌐 API Source
+
+## OpenRouter: Used for integrating advanced AI-driven career guidance.
+This project is open-source and available under the MIT License.
+
+## 📜 Integrated APIs
+
+YouTube API: Fetches relevant videos based on user learning preferences.
+
+Online LLM API: Provides AI-driven career guidance and recommendations.
